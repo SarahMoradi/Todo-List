@@ -1,19 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
     <link href="app.css" rel="stylesheet" type="text/css" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal Todo List</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="black-section"></div>
     <div class="main-section">
-        <div class="left-sec"></div>
-        <div class="center-sec"></div>
-        <div class="right-sec"></div>
+      <div class="left-sec">
+        <div class="header">
+          <i class="fas fa-clipboard-list" style="font-size: 48px"></i>
+          <h3>Todo List</h3>
+        </div>
+        <div class="priority-list">
+          <div class="dashboared list-style">
+            <i class="fas fa-dice-d6 icon" style="font-size: 24px"></i>
+            <p>Dashboard</p>
+          </div>
+          <div class="adjustment list-style">
+            <i class="fab fa-envira" style="font-size: 24px"></i>
+            <p>Adjustment</p>
+          </div>
+          <div class="frame list-style">
+            <i class="fas fa-diagnoses" style="font-size: 24px"></i>
+            <p>Frame</p>
+          </div>
+          <div class="work-out list-style">
+            <i class="fab fa-gripfire" style="font-size: 30px"></i>
+            <p>Workout</p>
+          </div>
+          <div class="setting list-style">
+            <i class="fas fa-cog" style="font-size: 24px"></i>
+            <p>Setting</p>
+          </div>
+        </div>
+        <fieldset>
+          <legend class="leg-text">WorkPlace</legend>
+          <div class="scan-content">
+            <h4 class="scan-text">Find Your Device</h4>
+            <i class="fas fa-angle-down"></i>
+          </div>
+        </fieldset>
+      </div>
+      <div class="center-sec"></div>
+      <div class="right-sec"></div>
     </div>
-    
-</body>
+  </body>
 </html>
